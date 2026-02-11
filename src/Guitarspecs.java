@@ -1,45 +1,39 @@
 public class Guitarspecs {
     private String model;
-    private String manufacturer;
-    public enum Type{
-        ACOUSTIC,
-        JAZZ,
-        CLASSIC
-    };  
-    public Type type;
-    private  int Strings;
-    private String color;
+    private String manufacturer; 
+    private String topwood;
+    private String bottomwood;
 
-    public Guitarspecs(String model, String manufacturer, Type type, int Strings, String color){
+    public Guitarspecs(String manufacturer, String model, String topwood, String bottomwood){
         this.model=model;
         this.manufacturer=manufacturer;
-        this.type=type;
-        this.Strings=Strings;
-        this.color=color;
+        this.topwood=topwood;
+        this.bottomwood=bottomwood;
     } 
 
-    public String getColor() {
-        return color;
+    public String getManufacturer() {return manufacturer;}
+    public String getModel(){return model;}
+    public String getBottomwood() {return bottomwood;}
+    public String getTopwood(){return topwood;}
+
+    public boolean matches(Guitarspecs user_input){
+        if(this.model.equals(user_input.model)){
+            return true;
+        }
+
+        if(this.bottomwood.equals(user_input.bottomwood)){
+            return true;
+        }
+
+        if(this.model.equals(user_input.model)){
+            return true;
+        }
+
+        if(this.topwood.equals(user_input.topwood)){
+            return true;
+        }
+
+        return false;
     }
-
-    public String getManufacturer() {
-        return manufacturer;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public int getStrings() {
-        return Strings;
-    }
-
-    public Type getType() {
-        return type;
-    }
-
-
-    
-
 
 }
