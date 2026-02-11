@@ -1,24 +1,16 @@
 public class Guitar {
     private String guitarId;
-    Guitarspecs specs= new Guitarspecs();
+    private double price;
+    Guitarspecs specs;
 
-    public void setGuitarId(String guitarId) {
-        this.guitarId = guitarId;
+    public Guitar(String guitarId, double price, Guitarspecs specs){
+        this.guitarId=guitarId;
+        this.price=price;
+        this.specs=specs;
     }
 
-    public String getGuitarId() {
-        return guitarId;
-    }
-
-    public Guitarspecs getSpecs() {
-        return specs;
-    }
-
-    public void setSpecs(Guitarspecs specs) {
-        this.specs = specs;
-    }
-
-
-
+    public String getGuitarId() { return guitarId;}
+    public double getPrice() {return price;}
+    public Guitarspecs getSpecs() {return specs;}
     
 }

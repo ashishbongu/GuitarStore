@@ -1,14 +1,22 @@
 public class Guitarspecs {
     private String model;
     private String manufacturer;
-    private enum type{
+    public enum Type{
         ACOUSTIC,
         JAZZ,
         CLASSIC
-    };
-    private double price;
-    private  int strings;
+    };  
+    public Type type;
+    private  int Strings;
     private String color;
+
+    public Guitarspecs(String model, String manufacturer, Type type, int Strings, String color){
+        this.model=model;
+        this.manufacturer=manufacturer;
+        this.type=type;
+        this.Strings=Strings;
+        this.color=color;
+    } 
 
     public String getColor() {
         return color;
@@ -22,29 +30,14 @@ public class Guitarspecs {
         return model;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
     public int getStrings() {
-        return strings;
+        return Strings;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public Type getType() {
+        return type;
     }
 
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
 
     
 
