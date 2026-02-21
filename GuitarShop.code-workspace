@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "GuitarShop",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.outputPath": "bin"
+	}
+}
