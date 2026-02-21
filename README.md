@@ -5,4 +5,6 @@
 # This is a Software designing project: 
 ## OOAD (Object oriented Analysis and Design) Usage 
 ## Noun Analysis / Verb Analysis
+## OOPS CONCEPTS / LESS REDUNDANT CODE
+## UML ANALYSIS / REQUIREMENT ENGINEERING
 
