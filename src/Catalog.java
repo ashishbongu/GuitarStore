@@ -7,6 +7,10 @@ public class Catalog{
         guitarList.add(g);
     }
 
+    public void LoadInstrument(){
+        
+    }
+
     public void showGuitarList() {
         for(int i=0;i<guitarList.size();i++){
             Guitar g=guitarList.get(i);
