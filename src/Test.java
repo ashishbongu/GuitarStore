@@ -7,86 +7,232 @@ public class Test {
 
         Inventory inventory = new Inventory();
 
-        loadInventoryFromFile("InstrumentsForPrototyping.txt", inventory);
+        loadInventoryFromFile(
+            "C:\\Users\\B_ASHISH\\eclipse-workspace\\GuitarShop\\src\\Instruments.txt",
+            inventory
+        );
 
-        // Example search
-        Map<String, Object> searchProperties = new HashMap<>();
-        searchProperties.put("brand", "Fender");
+        System.out.println("\nInventory Loaded Successfully\n");
 
-        InstrumentSpec searchSpec = new InstrumentSpec(searchProperties);
+        /* ----------- SEARCH EXAMPLE ----------- */
+
+        Map<String,Object> searchProps = new HashMap<>();
+
+        searchProps.put("instrumentType","FIDDLE");
+        searchProps.put("brand","Yamaha");
+
+        InstrumentSpec searchSpec = new InstrumentSpec(searchProps);
 
         List<Instrument> results = inventory.search(searchSpec);
 
-        for (Instrument instrument : results) {
+        for(Instrument instrument : results){
 
-            System.out.println("Found Instrument:");
+            System.out.println("Instrument Found:");
             System.out.println("Serial Number: " + instrument.getSerialNumber());
             System.out.println("Price: " + instrument.getPrice());
 
-            for (String key : instrument.getSpec().getProperties().keySet()) {
-                System.out.println(key + " : " + instrument.getSpec().getProperty(key));
+            for(String key : instrument.getSpec().getProperties().keySet()){
+                System.out.println(
+                    key + " : " +
+                    instrument.getSpec().getProperty(key)
+                );
             }
 
-            System.out.println("-------------------------");
+            System.out.println("----------------------------");
         }
     }
 
 
-    // TXT Loader inside Test class
-    private static void loadInventoryFromFile(String fileName, Inventory inventory) {
+    /* ----------- FILE LOADER ----------- */
 
-        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+    private static void loadInventoryFromFile(String fileName, Inventory inventory){
+
+        try(BufferedReader br = new BufferedReader(new FileReader(fileName))){
 
             String line;
-            Map<String, Object> properties = new HashMap<>();
 
-            String serialNumber = null;
-            double price = 0;
-
-            while ((line = br.readLine()) != null) {
+            while((line = br.readLine()) != null){
 
                 line = line.trim();
 
-                if (line.isEmpty()) continue;
+                if(line.isEmpty()) continue;
 
-                if (line.startsWith("serialNumber")) {
-                    serialNumber = line.split(":")[1].trim();
-                }
 
-                else if (line.startsWith("price")) {
-                    price = Double.parseDouble(line.split(":")[1].trim());
-                }
+                /* -------- MANDOLIN -------- */
 
-                else if (line.contains(":")) {
+                if(line.equals("MANDOLIN")){
 
-                    String[] parts = line.split(":");
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
+                    br.readLine();
 
-                    String key = parts[0].trim();
-                    String value = parts[1].trim();
+                    while(true){
 
-                    properties.put(key, value);
-                }
+                        String serial = br.readLine();
 
-                else if (!line.contains(":")) {
-                    // serial numbers like GTR1002 etc
-                    if (serialNumber != null) {
+                        if(serial == null || serial.trim().isEmpty())
+                            break;
 
-                        InstrumentSpec spec = new InstrumentSpec(properties);
-                        inventory.addInstrument(serialNumber, price, spec);
+                        double price = Double.parseDouble(br.readLine().trim());
+                        String brand = br.readLine().trim();
+                        String model = br.readLine().trim();
+                        String topWood = br.readLine().trim();
+                        String backWood = br.readLine().trim();
+                        String type = br.readLine().trim();
+                        String style = br.readLine().trim();
 
-                        properties = new HashMap<>();
+                        Map<String,Object> props = new HashMap<>();
+
+                        props.put("instrumentType","MANDOLIN");
+                        props.put("brand",brand);
+                        props.put("modelNumber",model);
+                        props.put("topWood",topWood);
+                        props.put("backWood",backWood);
+                        props.put("type",type);
+                        props.put("style",style);
+
+                        inventory.addInstrument(serial,price,new InstrumentSpec(props));
+
+                        System.out.println("Added: " + serial);
+
+                        br.readLine();
                     }
+                }
 
-                    serialNumber = line;
+
+                /* -------- GUITAR -------- */
+
+                if(line.equals("GUITAR")){
+
+                    while(true){
+
+                        String serial = br.readLine();
+
+                        if(serial == null || serial.trim().isEmpty())
+                            break;
+
+                        double price = Double.parseDouble(br.readLine().trim());
+                        String brand = br.readLine().trim();
+                        String model = br.readLine().trim();
+                        String topWood = br.readLine().trim();
+                        String backWood = br.readLine().trim();
+                        String type = br.readLine().trim();
+                        int strings = Integer.parseInt(br.readLine().trim());
+
+                        Map<String,Object> props = new HashMap<>();
+
+                        props.put("instrumentType","GUITAR");
+                        props.put("brand",brand);
+                        props.put("modelNumber",model);
+                        props.put("topWood",topWood);
+                        props.put("backWood",backWood);
+                        props.put("type",type);
+                        props.put("numStrings",strings);
+
+                        inventory.addInstrument(serial,price,new InstrumentSpec(props));
+
+                        System.out.println("Added: " + serial);
+
+                        br.readLine();
+                    }
+                }
+
+
+                /* -------- BANJO -------- */
+
+                if(line.startsWith("serialNumber: BNJ")){
+
+                    String serial = line.split(":")[1].trim();
+                    double price = Double.parseDouble(br.readLine().split(":")[1].trim());
+                    String brand = br.readLine().split(":")[1].trim();
+                    String model = br.readLine().split(":")[1].trim();
+                    String backWood = br.readLine().split(":")[1].trim();
+                    String resonator = br.readLine().split(":")[1].trim();
+                    int strings = Integer.parseInt(br.readLine().split(":")[1].trim());
+                    String drum = br.readLine().split(":")[1].trim();
+
+                    Map<String,Object> props = new HashMap<>();
+
+                    props.put("instrumentType","BANJO");
+                    props.put("brand",brand);
+                    props.put("modelNumber",model);
+                    props.put("backWood",backWood);
+                    props.put("resonatorType",resonator);
+                    props.put("numStrings",strings);
+                    props.put("drumHeadMaterial",drum);
+
+                    inventory.addInstrument(serial,price,new InstrumentSpec(props));
+
+                    System.out.println("Added: " + serial);
+                }
+
+
+                /* -------- DOBRO -------- */
+
+                if(line.startsWith("serialNumber: DBR")){
+
+                    String serial = line.split(":")[1].trim();
+                    double price = Double.parseDouble(br.readLine().split(":")[1].trim());
+                    String brand = br.readLine().split(":")[1].trim();
+                    String model = br.readLine().split(":")[1].trim();
+                    String topWood = br.readLine().split(":")[1].trim();
+                    String backWood = br.readLine().split(":")[1].trim();
+                    String resonator = br.readLine().split(":")[1].trim();
+                    int strings = Integer.parseInt(br.readLine().split(":")[1].trim());
+                    String drum = br.readLine().split(":")[1].trim();
+
+                    Map<String,Object> props = new HashMap<>();
+
+                    props.put("instrumentType","DOBRO");
+                    props.put("brand",brand);
+                    props.put("modelNumber",model);
+                    props.put("topWood",topWood);
+                    props.put("backWood",backWood);
+                    props.put("resonatorType",resonator);
+                    props.put("numStrings",strings);
+                    props.put("drumHeadMaterial",drum);
+
+                    inventory.addInstrument(serial,price,new InstrumentSpec(props));
+
+                    System.out.println("Added: " + serial);
+                }
+
+
+                /* -------- FIDDLE -------- */
+
+                if(line.startsWith("serialNumber: FDL")){
+
+                    String serial = line.split(":")[1].trim();
+                    double price = Double.parseDouble(br.readLine().split(":")[1].trim());
+                    String brand = br.readLine().split(":")[1].trim();
+                    String model = br.readLine().split(":")[1].trim();
+                    String topWood = br.readLine().split(":")[1].trim();
+                    String backWood = br.readLine().split(":")[1].trim();
+                    int strings = Integer.parseInt(br.readLine().split(":")[1].trim());
+                    boolean electric = Boolean.parseBoolean(br.readLine().split(":")[1].trim());
+
+                    Map<String,Object> props = new HashMap<>();
+
+                    props.put("instrumentType","FIDDLE");
+                    props.put("brand",brand);
+                    props.put("modelNumber",model);
+                    props.put("topWood",topWood);
+                    props.put("backWood",backWood);
+                    props.put("numStrings",strings);
+                    props.put("isElectric",electric);
+
+                    inventory.addInstrument(serial,price,new InstrumentSpec(props));
+
+                    System.out.println("Added: " + serial);
                 }
             }
 
-            if (serialNumber != null) {
-                InstrumentSpec spec = new InstrumentSpec(properties);
-                inventory.addInstrument(serialNumber, price, spec);
-            }
-
-        } catch (Exception e) {
+        }catch(Exception e){
             e.printStackTrace();
         }
     }

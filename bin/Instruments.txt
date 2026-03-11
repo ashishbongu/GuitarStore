@@ -1,0 +1,1172 @@
+﻿instrumentType: MANDOLIN
+serialNumber: MDN1001A
+price: 450
+brand: Lombardi
+modelNumber: LMB-200
+topWood: Spruce
+backWood: Maple
+type: acoustic
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1002F
+price: 620
+brand: Eastman
+modelNumber: MD-305
+topWood: Spruce
+backWood: Flamed Maple
+type: acoustic
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1003A
+price: 320
+brand: Saga
+modelNumber: MF-100
+topWood: Linden
+backWood: Nato
+type: acoustic
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1004F
+price: 890
+brand: Collings
+modelNumber: MF-7
+topWood: Sitka Spruce
+backWood: Curly Maple
+type: acoustic
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1005A
+price: 530
+brand: Loar
+modelNumber: LH-300
+topWood: Aged Spruce
+backWood: Mahogany
+type: acoustic
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1006F
+price: 1100
+brand: Gibson
+modelNumber: F-5
+topWood: Adirondack Spruce
+backWood: Tiger Maple
+type: acoustic
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1007F
+price: 1450
+brand: Gold Tone
+modelNumber: CM-950
+topWood: Spruce
+backWood: Maple
+type: hybrid
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1008A
+price: 1200
+brand: Godin
+modelNumber: Multiac Grand
+topWood: Solid Spruce
+backWood: Rosewood
+type: hybrid
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1009F
+price: 1600
+brand: Eastman
+modelNumber: MD-805
+topWood: Carved Spruce
+backWood: Solid Maple
+type: hybrid
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1010A
+price: 2800
+brand: Collings
+modelNumber: MF-10
+topWood: Adirondack Spruce
+backWood: Flamed Maple
+type: electric
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1011F
+price: 2200
+brand: Gibson
+modelNumber: E-Mando
+topWood: Maple
+backWood: Maple
+type: electric
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1012A
+price: 3500
+brand: Ovation
+modelNumber: Electronic-M
+topWood: Lyrachord
+backWood: Lyrachord
+type: electric
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1013F
+price: 2200
+brand: Travis Bean
+modelNumber: TB-M1
+topWood: Maple
+backWood: Maple
+type: electric
+style: F
+
+instrumentType: MANDOLIN
+serialNumber: MDN1014A
+price: 750
+brand: Stuart
+modelNumber: SB-4
+topWood: Spruce
+backWood: Rosewood
+type: bass
+style: A
+
+instrumentType: MANDOLIN
+serialNumber: MDN1015F
+price: 1300
+brand: Fairbanks
+modelNumber: FB-8
+topWood: Spruce
+backWood: Flame Maple
+type: bass
+style: F
+
+instrumentType: GUITAR
+serialNumber: GTR1001
+price: 350
+brand: Fender
+modelNumber: CD-60S
+topWood: Spruce
+backWood: Mahogany
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1002
+price: 420
+brand: Yamaha
+modelNumber: FG800
+topWood: Spruce
+backWood: Nato
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1003
+price: 280
+brand: Epiphone
+modelNumber: DR-100
+topWood: Spruce
+backWood: Mahogany
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1004
+price: 1100
+brand: Martin
+modelNumber: D-28
+topWood: Spruce
+backWood: Rosewood
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1005
+price: 850
+brand: Taylor
+modelNumber: 814ce
+topWood: Sitka Spruce
+backWood: Maple
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1006
+price: 1300
+brand: Gibson
+modelNumber: J-45
+topWood: Spruce
+backWood: Mahogany
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1007
+price: 720
+brand: Ibanez
+modelNumber: AW54
+topWood: Spruce
+backWood: Nato
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1008
+price: 940
+brand: Guild
+modelNumber: F-240
+topWood: Spruce
+backWood: Rosewood
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1009
+price: 1250
+brand: Taylor
+modelNumber: GS Mini
+topWood: Cedar
+backWood: Maple
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1010
+price: 1600
+brand: Gibson
+modelNumber: Hummingbird
+topWood: Spruce
+backWood: Mahogany
+type: acoustic
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1011
+price: 580
+brand: Fender
+modelNumber: Squier Classic Vibe Telecaster
+topWood: Alder
+backWood: Alder
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1012
+price: 890
+brand: Fender
+modelNumber: American Professional II Stratocaster
+topWood: Alder
+backWood: Alder
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1013
+price: 1450
+brand: Gibson
+modelNumber: Les Paul Standard
+topWood: Mahogany
+backWood: Mahogany
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1014
+price: 990
+brand: PRS
+modelNumber: SE Custom 24
+topWood: Mahogany
+backWood: Maple
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1015
+price: 780
+brand: Ibanez
+modelNumber: AZES40
+topWood: Alder
+backWood: Alder
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1016
+price: 1200
+brand: Gibson
+modelNumber: SG Standard
+topWood: Mahogany
+backWood: Mahogany
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1017
+price: 650
+brand: Yamaha
+modelNumber: Pacifica 612VIIX
+topWood: Swamp Ash
+backWood: Swamp Ash
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1018
+price: 1100
+brand: ESP
+modelNumber: LTD EC-1000
+topWood: Mahogany
+backWood: Maple
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1019
+price: 1380
+brand: Gretsch
+modelNumber: Streamliner G2420T
+topWood: Mahogany
+backWood: Mahogany
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1020
+price: 920
+brand: Schecter
+modelNumber: C-1 SLS
+topWood: Basswood
+backWood: Basswood
+type: electric
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1021
+price: 1400
+brand: Taylor
+modelNumber: 814ce-LH
+topWood: Spruce
+backWood: Maple
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1022
+price: 1050
+brand: Larrivee
+modelNumber: L-09
+topWood: Spruce
+backWood: Rosewood
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1023
+price: 1180
+brand: Seagull
+modelNumber: S6+ Original
+topWood: Spruce
+backWood: Maple
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1024
+price: 1700
+brand: Ovation
+modelNumber: Apex 1787
+topWood: Lyrachord
+backWood: Lyrachord
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1025
+price: 640
+brand: Guild
+modelNumber: Starfire 50th Anniversary
+topWood: Mahogany
+backWood: Mahogany
+type: hybrid
+numStrings: 6
+
+instrumentType: GUITAR
+serialNumber: GTR1026
+price: 1900
+brand: Dunable
+modelNumber: Dunwich
+topWood: Alder
+backWood: Alder
+type: electric
+numStrings: 8
+
+instrumentType: GUITAR
+serialNumber: GTR1027
+price: 1350
+brand: Gibson
+modelNumber: SG Bass
+topWood: Mahogany
+backWood: Mahogany
+type: bass
+numStrings: 4
+
+instrumentType: GUITAR
+serialNumber: GTR1028
+price: 1120
+brand: Fender
+modelNumber: American Professional II Precision Bass
+topWood: Alder
+backWood: Alder
+type: bass
+numStrings: 4
+
+instrumentType: GUITAR
+serialNumber: GTR1029
+price: 1550
+brand: Ibanez
+modelNumber: SR505E
+topWood: Basswood
+backWood: Basswood
+type: bass
+numStrings: 5
+
+instrumentType: GUITAR
+serialNumber: GTR1030
+price: 1800
+brand: Music Man
+modelNumber: Sterling 5
+topWood: Ash
+backWood: Ash
+type: bass
+numStrings: 5
+
+instrumentType: BANJO
+serialNumber: BNJ1001
+price: 320
+brand: Ibanez
+modelNumber: B200
+backWood: Maple
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1002
+price: 280
+brand: Saga
+modelNumber: SB-5
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Plastic
+
+instrumentType: BANJO
+serialNumber: BNJ1003
+price: 450
+brand: Deering
+modelNumber: Goodtime Open-Back
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Skin
+
+instrumentType: BANJO
+serialNumber: BNJ1004
+price: 620
+brand: Gibson
+modelNumber: RB-250
+backWood: Mahogany
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1005
+price: 890
+brand: John L. Bernun
+modelNumber: Birelyer
+backWood: Maple
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1006
+price: 530
+brand: Oscar Schmidt
+modelNumber: OB-400
+backWood: Birch
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Plastic
+
+instrumentType: BANJO
+serialNumber: BNJ1007
+price: 710
+brand: Deering
+modelNumber: Eclipse
+backWood: Mahogany
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1008
+price: 480
+brand: Washburn
+modelNumber: W100
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Skin
+
+instrumentType: BANJO
+serialNumber: BNJ1009
+price: 930
+brand: Gibson
+modelNumber: RB-1936
+backWood: Mahogany
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1010
+price: 380
+brand: Bear Creek
+modelNumber: BC-100
+backWood: Birch
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Plastic
+
+instrumentType: BANJO
+serialNumber: BNJ1011
+price: 1100
+brand: Stelling
+modelNumber: GSM
+backWood: Maple
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1012
+price: 670
+brand: Preston
+modelNumber: PEN-1
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Skin
+
+instrumentType: BANJO
+serialNumber: BNJ1013
+price: 540
+brand: Recording King
+modelNumber: RK-B29
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1014
+price: 1260
+brand: Gretsch
+modelNumber: G9570
+backWood: Mahogany
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1015
+price: 420
+brand: Oscar Schmidt
+modelNumber: OB-80
+backWood: Birch
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Plastic
+
+instrumentType: BANJO
+serialNumber: BNJ1016
+price: 750
+brand: Deering
+modelNumber: Tenor Goodtime
+backWood: Mahogany
+resonatorType: none
+numStrings: 4
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1017
+price: 830
+brand: C.F. Martin
+modelNumber: MB-1
+backWood: Mahogany
+resonatorType: resonator
+numStrings: 5
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1018
+price: 590
+brand: Washburn
+modelNumber: W10N
+backWood: Mahogany
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Skin
+
+instrumentType: BANJO
+serialNumber: BNJ1019
+price: 1050
+brand: Ibanez
+modelNumber: BN40E
+backWood: Basswood
+resonatorType: resonator
+numStrings: 4
+drumHeadMaterial: Mylar
+
+instrumentType: BANJO
+serialNumber: BNJ1020
+price: 470
+brand: Suzuki
+modelNumber: B200
+backWood: Birch
+resonatorType: none
+numStrings: 5
+drumHeadMaterial: Plastic
+
+instrumentType: DOBRO
+serialNumber: DBR1001
+price: 850
+brand: Dobro
+modelNumber: D25
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1002
+price: 920
+brand: Dobro
+modelNumber: DR-304
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1003
+price: 680
+brand: Epiphone
+modelNumber: RM250
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1004
+price: 1100
+brand: Breedlove
+modelNumber: ResOrg
+topWood: Sitka Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1005
+price: 750
+brand: Johnson
+modelNumber: JR-26
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1006
+price: 1300
+brand: Gold Tone
+modelNumber: RM-150
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1007
+price: 590
+brand: Saga
+modelNumber: SDBR-25
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1008
+price: 1450
+brand: Dobro
+modelNumber: D35
+topWood: Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1009
+price: 1280
+brand: Dobro
+modelNumber: Coral Scape
+topWood: Spruce
+backWood: Mahogany
+resonatorType: tricone
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1010
+price: 980
+brand: Dolce
+modelNumber: DC-01
+topWood: Spruce
+backWood: Maple
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1011
+price: 1650
+brand: National
+modelNumber: Style 1 Tri
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: tricone
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1012
+price: 1140
+brand: Dobro
+modelNumber: D150
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1013
+price: 820
+brand: Johnson
+modelNumber: JR-28
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1014
+price: 1360
+brand: Dobro
+modelNumber: D270
+topWood: Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1015
+price: 710
+brand: Affordable
+modelNumber: A-20
+topWood: Mahogany
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1016
+price: 1520
+brand: National
+modelNumber: Style 1
+topWood: Rosewood
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1017
+price: 880
+brand: Saga
+modelNumber: SDBR-50
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1018
+price: 1190
+brand: Epiphone
+modelNumber: RM300
+topWood: Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1019
+price: 950
+brand: Dobro
+modelNumber: D300
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1020
+price: 1400
+brand: Dobro
+modelNumber: D500
+topWood: Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1021
+price: 1030
+brand: Dobro
+modelNumber: D400
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1022
+price: 1260
+brand: Dobro
+modelNumber: D600
+topWood: Spruce
+backWood: Rosewood
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: DOBRO
+serialNumber: DBR1023
+price: 800
+brand: Johnson
+modelNumber: JR-30
+topWood: Spruce
+backWood: Mahogany
+resonatorType: single-cone spider
+numStrings: 6
+drumHeadMaterial: Steel
+
+instrumentType: FIDDLE
+serialNumber: FDL1001
+price: 280
+brand: Cremona
+modelNumber: SV-130
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1002
+price: 350
+brand: Saga
+modelNumber: SFR-500
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1003
+price: 190
+brand: Stentor
+modelNumber: Student I
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1004
+price: 420
+brand: Fiddlerman
+modelNumber: Concert Violin
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1005
+price: 260
+brand: Mendini
+modelNumber: MV500
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1006
+price: 530
+brand: Knilling
+modelNumber: Gemini
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1007
+price: 310
+brand: Pascolini
+modelNumber: P100
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1008
+price: 1100
+brand: Cecilio
+modelNumber: CVN-300
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1009
+price: 780
+brand: Norman
+modelNumber: N-100
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1010
+price: 1400
+brand: Alvarez
+modelNumber: Artist Fiddle
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1011
+price: 950
+brand: Yamaha
+modelNumber: V5SA
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1012
+price: 1250
+brand: Cecilio
+modelNumber: CVN-500
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1013
+price: 670
+brand: Stentor
+modelNumber: Corbetto
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1014
+price: 820
+brand: Fiddlerman
+modelNumber: Fiddlerman Elite
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1015
+price: 450
+brand: Saga
+modelNumber: SFR-1000
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1016
+price: 1600
+brand: Luby
+modelNumber: L-800
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1017
+price: 710
+brand: Cecilio
+modelNumber: CVN-100
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1018
+price: 1350
+brand: Cremona
+modelNumber: SV-500
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1019
+price: 980
+brand: Norman
+modelNumber: N-200
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1020
+price: 590
+brand: Fiddlerman
+modelNumber: Fiddlerman Performer
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1021
+price: 2100
+brand: Knilling
+modelNumber: Diamond
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1022
+price: 380
+brand: Mendini
+modelNumber: MV300
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1023
+price: 1420
+brand: Fiddlerman
+modelNumber: Fiddlerman Artist
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1024
+price: 860
+brand: Stentor
+modelNumber: Alliance
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1025
+price: 1800
+brand: Saga
+modelNumber: SFR-2000
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1026
+price: 1150
+brand: Cecilio
+modelNumber: CVN-700
+topWood: Spruce
+backWood: Flame Maple
+numStrings: 4
+isElectric: false
+
+instrumentType: FIDDLE
+serialNumber: FDL1027
+price: 480
+brand: Cremona
+modelNumber: ST-100
+topWood: Spruce
+backWood: Maple
+numStrings: 4
+isElectric: true
